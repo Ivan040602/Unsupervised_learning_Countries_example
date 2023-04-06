@@ -17,7 +17,9 @@ The dataset consists of the following components:
 Next, let's look at the dependencies (correlation) between variables using the constructed correlation matrix.<br /> 
 The greatest positive correlation can be traced between the variables <b>"income" / "gdpp" </b>and <b>"child_mort" / "total_fer".</b> <br />
 This is quite logical because of course the average earnings of the population affects the GDP.
-<img src="[https://imgur.com/0PIpyKd](https://imgur.com/0PIpyKd)" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://i.imgur.com/npLIJhc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
 Similarly, infant mortality at an early age, the indicator of which is indicated in this dataset directly depends on the indicator of fertility and fertility, because it is closely related to the institution of the family and its form.
 
 ### Principal component analysis:
