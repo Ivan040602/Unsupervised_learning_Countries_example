@@ -5,7 +5,8 @@ Unsupervised Learning «Countries dataset»
 This dataset is a data set consisting of various characteristics of the countries forming its socio-economic situation. Accordingly, for this dataset, I needed to determine a certain number of country classes according to the criteria corresponding to the "Most developed countries", "Developed countries", "Developing countries" and "Undeveloped countries".
 The dataset consists of the following components:
 - <b>country</b> - Name of the country
-- <b>child_mort</b> - Death of children under 5 years of age per 1000 live births exports - Exports of goods and services per capital.
+- <b>child_mort</b> - Death of children under 5 years of age per 1000 live births. 
+- <b>exports</b> - Exports of goods and services per capital.
 - <b>health</b> - Total health spending per capita.
 - <b>imports</b> - Imports of goods and services per capita.
 - <b>income</b> - Net income per person
