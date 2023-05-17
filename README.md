@@ -52,7 +52,7 @@ Based on this, the question arises how exactly to choose the initial number of c
 From the graph, we see that the shortest distance between the two curves and, accordingly, the best distortion score, which determines the required number of separation clusters, occurs when the number of groups is equal to four.
 After we have successfully applied the leverage method and predicted classes for each country using algorithms, we see that the model has divided our data into 4 clusters, each of which reflects the received categories of countries according to their level of socio-economic development.<br /> 
 <br/>
-<img src="https://imgur.com/ePxPJtg.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://drive.google.com/file/d/1-lOSRrOillMWKtiuB1y4gxaSexbt38YN/view?usp=share_link" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 ### Hierarchical Clustering / DBscan Clustering:
 In order to make sure that the resulting partitioning into clusters is correct, we can apply the hierarchy algorithm reflected using a dendrogram. <br /> 
