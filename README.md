@@ -52,16 +52,16 @@ Based on this, the question arises how exactly to choose the initial number of c
 From the graph, we see that the shortest distance between the two curves and, accordingly, the best distortion score, which determines the required number of separation clusters, occurs when the number of groups is equal to four.
 After we have successfully applied the leverage method and predicted classes for each country using algorithms, we see that the model has divided our data into 4 clusters, each of which reflects the received categories of countries according to their level of socio-economic development.<br /> 
 <br/>
-<img src="https://drive.google.com/file/d/1-lOSRrOillMWKtiuB1y4gxaSexbt38YN/view?usp=share_link" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<br />
+<!-- <img src="https://drive.google.com/file/d/1-lOSRrOillMWKtiuB1y4gxaSexbt38YN/view?usp=share_link" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br /> -->
 ### Hierarchical Clustering / DBscan Clustering:
 In order to make sure that the resulting partitioning into clusters is correct, we can apply the hierarchy algorithm reflected using a dendrogram. <br /> 
 This algorithm consists in the ordering of data aimed at creating a hierarchy of a tree, nested clusters. 
 There are two types of hierarchical separation algorithms: Agglomerative(bottom->up) and Divisive (top->down). <br /> 
 In our case, it is more convenient for us to use Divisive Hierarchical Clustering, since this method initially forms one large cluster with all the data and already. Then it splits it into sub-clusters with similar characteristics.
 <br/>
-<img src="https://imgur.com/42OZgiO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<br />
+<!-- <img src="https://imgur.com/42OZgiO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br /> -->
 Unlike the previous method, this algorithm divided the dataset into only three classes of countries, and therefore we have an alternative division into clusters.<br /> 
 
 Next, we need to use the third DBscan clustering method. It is a density-based clustering non-parametric algorithm: given a set of points in some space, it groups together points that are closely packed together.
